@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--  CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<!--  JAVASCRIPT -->
+    <script type="application/javascript" src="js/jquery.js"></script>
+    <script type="application/javascript" src="js/angularjs/angular.js"></script>
+    <script type="application/javascript" src="js/bootstrap/bootstrap.js"></script>
+    <script type="application/javascript" src="js/app.js"></script>
+
+    <title>Inicio</title>
+</head>
+<body ng-app="crud">
+
+
+<div ng-controller="crudController">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+
+                <h1><i class="fab fa-angular"></i> AngularJS PHP CRUD</h1>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="float-right">
+                    <button class="btn btn-success" data-toggle="modal" data-target="#add_new_modal">
+                        <i class="fas fa-plus-circle"></i> Nuevo Producto
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <h3><i class="fas fa-boxes"></i> Productos</h3>
+                <table ng-if="productos.length > 0" class="table table-bordered table-striped">
+
+                    <tr>
+                        <th>No</th>
+                        <th>Nombre</th>
+                        <th>Descripcion</th>
+                        <th>Acción</th>
+                    </tr>
+                    <tr ng-repeat="producto in productos">
+                        <td>{{producto.id_producto}}</td>
+                        <td>{{producto.nombre_pro}}</td>
+                        <td>{{producto.descripcion_pro}}</td>
+                        <td >
+                            <button class="btn btn-primary btn-sm " data-toggle="modal" data-target="#modal-update">
+                                <i class="fas fa-pencil-alt"></i> Editar
+                            </button>
+                            <button class="btn btn-danger btn-sm" ng-click="eliminarProducto($index)">
+                                <i class="fas fa-trash"></i> Eliminar
+                            </button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <!--        Bootstrap Modals Nuevo Producto      -->
+
+        <div class="modal fade" id="add_new_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel_Nuevo">
+                            Nuevo Producto
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+                    <div class="modal-body">
+
+                        <ul class="alert alert-danger" ng-if="errors.length > 0">
+                            <li ng-repeat="error in errors">
+                                {{error}}
+                            </li>
+                        </ul>
+                        <div class="form-group">
+                            <label for="name-new">Nombre</label>
+                            <input ng-model="producto.nombre_pro" type="text" name="name" id="name-new" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="description-new">Descripcion</label>
+                            <textarea ng-model="producto.descripcion_pro" class="form-control" name="description" id="description-new"></textarea>
+                        </div>
+
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" ng-click="nuevoProducto()"> Guardar Productos</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--        // Modal     -->
+
+
+        <!--        Bootstrap Modals     Update Producto  -->
+
+        <div class="modal fade" id="modal-update" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel_Editar">
+                            Editar Producto
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+                    <div class="modal-body">
+
+                        <ul class="alert alert-danger">
+
+                        </ul>
+                        <div class="form-group">
+                            <label for="name-update">Nombre</label>
+                            <input type="text" name="name" id="name-update" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="description-update">Descripcion</label>
+                            <textarea class="form-control" name="description" id="description-update"></textarea>
+                        </div>
+
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" > Guardar Productos</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--        // Modal-->
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
