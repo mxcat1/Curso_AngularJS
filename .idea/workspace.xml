@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfbd30c0-d9e4-4e33-89b9-3166f7e8f1e0" name="Default Changelist" comment="NUevos archivos subidos">
-      <change afterPath="$PROJECT_DIR$/Recursos/BASES DE DATOS/bdferreteria.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos/BASES DE DATOS/tienda_proyecto.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153/storage_v2/_src_/schema/bdferreteria.dR1Scw.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153/storage_v2/_src_/schema/bdferreteria.dR1Scw.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153/storage_v2/_src_/schema/dbsistema.5NMSLA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153/storage_v2/_src_/schema/dbsistema.5NMSLA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +38,11 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="7ac7b5bd-4874-4651-abc8-e920fb4b9153" />
+    </checked>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1208677989">
@@ -145,6 +153,24 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.php.composer.command.options" />
     </session>
+    <session id="2121862773">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Curso_AngularJS" />
@@ -154,8 +180,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+            <state relative-caret-position="-1026">
+              <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -163,7 +189,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="714">
               <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
             </state>
           </provider>
@@ -172,7 +198,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="8">
               <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
             </state>
           </provider>
@@ -181,7 +207,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1264">
+            <state relative-caret-position="1343">
               <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
             </state>
           </provider>
@@ -250,7 +276,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP(WAMP)" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -262,21 +288,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Curso_AngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso_AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Curso-AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-AngularJS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Curso_AngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso_AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Curso-AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto-Final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-AngularJS" type="462c0819:PsiDirectoryNode" />
               <item name="Recursos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Curso_AngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Curso_AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Curso-AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-AngularJS" type="462c0819:PsiDirectoryNode" />
               <item name="Recursos" type="462c0819:PsiDirectoryNode" />
               <item name="BASES DE DATOS" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -284,7 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +334,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -363,11 +394,12 @@
       <workItem from="1539662953225" duration="1632000" />
       <workItem from="1539665060455" duration="12000" />
       <workItem from="1539666422024" duration="298000" />
+      <workItem from="1539794582365" duration="947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53334000" />
+    <option name="totallyTimeSpent" value="54281000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -381,7 +413,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.18532526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5017123" side_tool="true" weight="0.1732224" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,7 +433,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="3" weight="0.21785174" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,12 +590,12 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/css/bootstrap/bootstrap-reboot.min.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/bootstrap/bootstrap.min.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -609,44 +641,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql" />
+    <entry file="file://$PROJECT_DIR$/Clase-7/prueba.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1264">
+        <state relative-caret-position="1343">
           <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursos/BASES DE DATOS/tienda_proyecto.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="8">
           <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase-7/prueba.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Recursos/BASES DE DATOS/tienda_proyecto.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        <state relative-caret-position="-1026">
+          <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
         </state>
       </provider>
     </entry>
