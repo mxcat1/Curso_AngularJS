@@ -20,13 +20,19 @@ $html_texto="<style>
                 th{
                     background: #5fcbc4;
                 }
+                h2{
+                    text-align: center;
+                }
              </style>
+             <img src='../../img/carro.png'>
              <h2>PRODUCTOS</h2>
+             <hr>
+             <hr>
                 <table>
                         <tr>
                             <th>ID PRODUCTO</th>
-                            <th>NOMBRE PRODUCTO</th>
-                            <th>DESCRIPCION</th>
+                            <th style='width: 200px'>NOMBRE PRODUCTO</th>
+                            <th style='width: 400px'>DESCRIPCION</th>
                         </tr>";
 foreach ($l_pro as $elem){
     $html_texto.="<tr>

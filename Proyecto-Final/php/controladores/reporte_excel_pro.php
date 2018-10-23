@@ -21,7 +21,6 @@ $html_texto="<style>
                     background: #5fcbc4;
                 }
              </style>
-             <h2>PRODUCTOS</h2>
                 <table>
                         <tr>
                             <th>ID PRODUCTO</th>

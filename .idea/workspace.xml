@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfbd30c0-d9e4-4e33-89b9-3166f7e8f1e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_word_pro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/img/carro.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto-Final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,6 +172,37 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.php.composer.command.options" />
     </session>
+    <session id="-354522464">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="81" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="12" />
+          <entry key="PHP" value="69" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Curso_AngularJS" />
@@ -181,26 +212,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="101">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_word_pro.php">
+        <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="-17">
+              <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +243,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="1394">
               <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
             </state>
           </provider>
@@ -217,7 +252,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="119">
               <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
@@ -226,7 +261,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
+            <state relative-caret-position="1462">
               <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
             </state>
           </provider>
@@ -270,10 +305,10 @@
         <option value="$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php" />
         <option value="$PROJECT_DIR$/Proyecto-Final/js/app.js" />
         <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php" />
-        <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php" />
         <option value="$PROJECT_DIR$/Proyecto-Final/index.html" />
-        <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php" />
         <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_word_pro.php" />
+        <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php" />
+        <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php" />
       </list>
     </option>
   </component>
@@ -298,7 +333,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP(WAMP)" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -310,7 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,10 +377,22 @@
               <item name="php" type="462c0819:PsiDirectoryNode" />
               <item name="modelos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Curso_AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso_AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso_AngularJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso_AngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursos" type="462c0819:PsiDirectoryNode" />
+              <item name="LIBS" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,20 +411,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Cursos\Curso_AngularJS\Clase-8\js" />
-      <recent name="D:\Cursos\Curso_AngularJS\Clase-4" />
-      <recent name="D:\Cursos\Curso_AngularJS\Clase-2\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mxcat_LAP\PhpstormProjects\Curso_AngularJS\Proyecto-Final\img" />
       <recent name="C:\Users\MXCAT_PC\PhpstormProjects\Curso_AngularJS\Proyecto-Final\php\libs" />
       <recent name="C:\Users\MXCAT_PC\PhpstormProjects\Curso_AngularJS\Recursos\BASES DE DATOS" />
       <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\js\bootstrap" />
       <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\css\bootstrap" />
-      <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Cursos\Curso_AngularJS\Clase-8\js" />
+      <recent name="D:\Cursos\Curso_AngularJS\Clase-4" />
+      <recent name="D:\Cursos\Curso_AngularJS\Clase-2\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,6 +483,8 @@
       <workItem from="1539825506068" duration="417000" />
       <workItem from="1539826940298" duration="816000" />
       <workItem from="1540251175580" duration="11148000" />
+      <workItem from="1540297407603" duration="175000" />
+      <workItem from="1540297631733" duration="4793000" />
     </task>
     <task id="LOCAL-00001" summary="NUevos archivos subidos">
       <created>1539666752620</created>
@@ -470,7 +518,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66976000" />
+    <option name="totallyTimeSpent" value="71944000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -485,7 +533,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.19742814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.20347957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5017123" side_tool="true" weight="0.1732224" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -696,24 +744,11 @@
     <entry file="file://$PROJECT_DIR$/Recursos/BASES DE DATOS/tienda_proyecto.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql" />
     <entry file="das://7ac7b5bd-4874-4651-abc8-e920fb4b9153/schema/tienda_proyecto/table/productos">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -728,13 +763,6 @@
         <state relative-caret-position="-144" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/css/general.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -745,38 +773,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php">
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_word_pro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="7" selection-start-line="7" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="101">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_excel_pro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_word_pro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="-17">
+          <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
         </state>
       </provider>
     </entry>
