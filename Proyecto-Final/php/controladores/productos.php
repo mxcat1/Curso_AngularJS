@@ -59,4 +59,26 @@ switch ($opcion){
         }
 
         break;
+    case "actualizar_producto":
+        $nom_pro=(isset($datos->producto->nombre_pro) ? $datos->producto->nombre_pro:null);
+        $desc_pro=(isset($datos->producto->descripcion_pro) ? $datos->producto->descripcion_pro:null);
+        $id=(isset($datos->producto->id_producto) ? $datos->producto->id_producto:null);
+        $errores=['errors'=>[]];
+
+        if ($nom_pro == null || $desc_pro==null || $id==null){
+            http_response_code(400);
+            if ($nom_pro == null){
+                array_push($errores['errors'],'El Campo de Nombre es Obligatorio');
+            }
+            if ($desc_pro==null){
+                array_push($errores['errors'],"El campo de descripcion es obligatorio");
+            }
+            if ($id==null){
+                array_push($errores['errors'],"No se encontro el ID del Producto seleccionado");
+            }
+        }else{
+            $productos->actualizar_producto($nom_pro,$desc_pro,$id);
+        }
+
+        break;
 }

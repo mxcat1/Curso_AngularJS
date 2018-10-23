@@ -84,6 +84,12 @@ class productos extends conexion_bd {
         $consulta->bind_param("i",$id_producto);
         $consulta->execute();
     }
+    public function actualizar_producto($nom_pro,$desc_pro,$id){
+        $sql="UPDATE productos set nombre_pro = ?, descripcion_pro=? where id_producto=?";
+        $consulta=$this->conedb->prepare($sql);
+        $consulta->bind_param('ssi',$nom_pro,$desc_pro,$id);
+        $consulta->execute();
+    }
 
 
 }

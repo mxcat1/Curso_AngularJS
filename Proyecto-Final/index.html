@@ -38,6 +38,9 @@
                     <button class="btn btn-success" data-toggle="modal" data-target="#add_new_modal">
                         <i class="fas fa-plus-circle"></i> Nuevo Producto
                     </button>
+                    <button class="btn btn-dark">
+                        <i class="fas fa-file-pdf"></i> <a href="php/controladores/reporte_pdf_pro.php">Registros PDF</a>
+                    </button>
                 </div>
 
             </div>
@@ -58,7 +61,7 @@
                         <td>{{producto.nombre_pro}}</td>
                         <td>{{producto.descripcion_pro}}</td>
                         <td >
-                            <button class="btn btn-primary btn-sm " data-toggle="modal" data-target="#modal-update">
+                            <button class="btn btn-primary btn-sm " ng-click="edit($index)">
                                 <i class="fas fa-pencil-alt"></i> Editar
                             </button>
                             <button class="btn btn-danger btn-sm" ng-click="eliminarProducto($index)">
@@ -134,16 +137,18 @@
                     </div>
                     <div class="modal-body">
 
-                        <ul class="alert alert-danger">
-
+                        <ul class="alert alert-danger" ng-if="errors.length > 0">
+                            <li ng-repeat="error in errors">
+                                {{error}}}
+                            </li>
                         </ul>
                         <div class="form-group">
                             <label for="name-update">Nombre</label>
-                            <input type="text" name="name" id="name-update" class="form-control">
+                            <input ng-model="detalle_producto.nombre_pro" type="text" name="name" id="name-update" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="description-update">Descripcion</label>
-                            <textarea class="form-control" name="description" id="description-update"></textarea>
+                            <textarea ng-model="detalle_producto.descripcion_pro" class="form-control" name="description" id="description-update"></textarea>
                         </div>
 
 
@@ -151,7 +156,7 @@
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-                        <button type="button" class="btn btn-primary" > Guardar Productos</button>
+                        <button type="button" class="btn btn-primary" ng-click="updateProducto()"> Guardar Productos</button>
                     </div>
 
                 </div>

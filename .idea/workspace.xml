@@ -2,7 +2,324 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfbd30c0-d9e4-4e33-89b9-3166f7e8f1e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/LICENSE.LGPL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/autoload.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/Cpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Courier-Bold.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Courier-BoldOblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Courier-Oblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Courier.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans-Bold.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans-BoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans-BoldOblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans-Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans-Oblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSans.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono-Bold.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono-Oblique.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono-Oblique.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSansMono.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif-Bold.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif-Italic.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/DejaVuSerif.ufm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Helvetica-Bold.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Helvetica-BoldOblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Helvetica-Oblique.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Helvetica.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Symbol.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Times-Bold.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Times-BoldItalic.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Times-Italic.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/Times-Roman.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/ZapfDingbats.afm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/dompdf_font_family_cache.dist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/fonts/mustRead.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/html5lib/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/html5lib/InputStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/html5lib/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/html5lib/Tokenizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/html5lib/TreeBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/html5lib/named-character-references.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/Doxyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/Document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/CSSList/KeyFrame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Comment/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Comment/Commentable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/OutputException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/SourceException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/AtRule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/CSSNamespace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Charset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Property/Selector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Renderable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Rule/Rule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/AtRuleSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/DeclarationBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Size.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/CSSList/AtRuleBlockListTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/CSSList/DocumentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/OutputFormatTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/ParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/RuleSet/DeclarationBlockTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/Sabberworm/CSS/RuleSet/LenientParsingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/-charset-after-rule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/-charset-in-block.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/-empty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/-end-token-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/-end-token.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/-fault-tolerance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/-tobedone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/1readme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/2readme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/atrules.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/case-insensitivity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/colortest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/comments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/create-shorthands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/docuwiki.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/expand-shorthands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/functions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/ie-hacks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/important.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/inner-color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/line-numbers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/namespaces.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/nested.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/slashed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/specificity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/unicode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/url.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/values.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/webkit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/files/whitespace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-css-parser/tests/quickdump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/adobe-standard-encoding.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1250.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1251.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1252.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1253.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1254.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1255.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1257.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp1258.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/cp874.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-1.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-11.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-15.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-16.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-4.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-5.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-7.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/iso-8859-9.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/koi8-r.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/maps/koi8-u.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/sample-fonts/IntelClear-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/sample-fonts/NotoSansShavian-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/AdobeFontMetrics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/BinaryStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/EOT/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/EOT/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/EncodingMap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Exception/FontNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Font.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/Outline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineComposite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Glyph/OutlineSimple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/OpenType/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/OpenType/TableDirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/DirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/cmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/glyf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/hhea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/hmtx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/kern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/loca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/maxp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/nameRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/os2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/Table/Type/post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/TrueType/TableDirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/WOFF/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/WOFF/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/src/FontLib/WOFF/TableDirectoryEntry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-font-lib/tests/FontLib/FontTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/DefaultStyle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Gradient/Stop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/CPdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceCpdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceGmagick.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfaceInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Surface/SurfacePDFLib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/AbstractTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Anchor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Circle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/ClipPath.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Ellipse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Line.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/LinearGradient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Path.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Polygon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Polyline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/RadialGradient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Rect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Shape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Stop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/StyleTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/Svg/Tag/UseTag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/src/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/php-svg-lib/tests/Svg/StyleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/res/broken_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/res/html.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/phpcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Adapter/CPDF.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Adapter/GD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Adapter/PDFLib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Canvas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/CanvasFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Cellmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Css/AttributeTranslator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Css/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Css/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Css/Stylesheet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Dompdf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Exception/ImageException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FontMetrics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Frame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Frame/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Frame/FrameList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Frame/FrameListIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Frame/FrameTree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Frame/FrameTreeIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Frame/FrameTreeList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/AbstractFrameDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/ListBulletImage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/NullFrameDecorator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameDecorator/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/AbstractFrameReflower.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/NullFrameReflower.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/FrameReflower/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Image/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/JavascriptEmbedder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/LineBox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/PhpEvaluator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/Absolute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/AbstractPositioner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/Fixed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/NullPositioner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Positioner/TableRow.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/AbstractRenderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/Inline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/ListBullet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/TableCell.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/TableRowGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/src/Renderer/Text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153/storage_v2/_src_/schema/bdferreteria.dR1Scw.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7ac7b5bd-4874-4651-abc8-e920fb4b9153/storage_v2/_src_/schema/bdferreteria.dR1Scw.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Final/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Final/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +347,19 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tienda_proyecto: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tienda_proyecto: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="productos: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -104,37 +434,50 @@
     <session id="-23344930">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="245" />
+          <entry key="js" value="545" />
+          <entry key="php" value="1236" />
+          <entry key="sql" value="5" />
           <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="322" />
+          <entry key="JavaScript" value="545" />
+          <entry key="PHP" value="1159" />
           <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.php.new.class" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="3" />
-          <entry key="sql" value="1" />
+          <entry key="css" value="3" />
+          <entry key="php" value="6" />
+          <entry key="productos" value="2" />
+          <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="3" />
+          <entry key="CSS" value="3" />
+          <entry key="Database Element" value="2" />
+          <entry key="PHP" value="6" />
           <entry key="SQL" value="1" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -152,8 +495,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+            <state relative-caret-position="176">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -161,8 +504,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+            <state relative-caret-position="390">
+              <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -170,17 +513,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="112">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+            <state relative-caret-position="704">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -216,14 +568,15 @@
         <option value="$PROJECT_DIR$/Clase-6/prueba.php" />
         <option value="$PROJECT_DIR$/Clase-7/js/controlador.js" />
         <option value="$PROJECT_DIR$/Proyecto-Final/scss/general.scss" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql" />
         <option value="$PROJECT_DIR$/Proyecto-Final/php/conexion/config.php" />
         <option value="$PROJECT_DIR$/Proyecto-Final/php/conexion/conexion_bd.php" />
-        <option value="$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php" />
-        <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php" />
-        <option value="$PROJECT_DIR$/Proyecto-Final/js/app.js" />
         <option value="$PROJECT_DIR$/Proyecto-Final/index.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql" />
+        <option value="$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php" />
+        <option value="$PROJECT_DIR$/Proyecto-Final/js/app.js" />
+        <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php" />
         <option value="$PROJECT_DIR$/Proyecto-Final/index.html" />
+        <option value="$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php" />
       </list>
     </option>
   </component>
@@ -260,6 +613,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,7 +650,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,17 +671,17 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MXCAT_PC\PhpstormProjects\Curso_AngularJS\Recursos\BASES DE DATOS" />
-      <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\js\bootstrap" />
-      <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\css\bootstrap" />
-      <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\js" />
-      <recent name="D:\Cursos\Curso_AngularJS\Clase-8" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Cursos\Curso_AngularJS\Clase-8\js" />
       <recent name="D:\Cursos\Curso_AngularJS\Clase-4" />
       <recent name="D:\Cursos\Curso_AngularJS\Clase-2\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MXCAT_PC\PhpstormProjects\Curso_AngularJS\Proyecto-Final\php\libs" />
+      <recent name="C:\Users\MXCAT_PC\PhpstormProjects\Curso_AngularJS\Recursos\BASES DE DATOS" />
+      <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\js\bootstrap" />
+      <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\css\bootstrap" />
+      <recent name="D:\Cursos\Curso_AngularJS\Proyecto-Final\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,12 +696,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Curso_AngularJS/Proyecto-Final/index.html">
+      <method v="2" />
+    </configuration>
     <configuration name="prueba.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Clase-6/prueba.php">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Script.prueba.php" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="PHP Script.prueba.php" />
       </list>
     </recent_temporary>
@@ -377,6 +738,8 @@
       <workItem from="1539666422024" duration="357000" />
       <workItem from="1539724097261" duration="1202000" />
       <workItem from="1539825506068" duration="417000" />
+      <workItem from="1539826940298" duration="816000" />
+      <workItem from="1540251175580" duration="9704000" />
     </task>
     <task id="LOCAL-00001" summary="NUevos archivos subidos">
       <created>1539666752620</created>
@@ -385,11 +748,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539666752620</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NUevos archivos subidos">
+      <created>1539827049184</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539827049184</updated>
+    </task>
+    <task id="LOCAL-00003" summary="NUevos archivos subidos">
+      <created>1539827122964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539827122964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55012000" />
+    <option name="totallyTimeSpent" value="65532000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -404,7 +781,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.1913767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49828768" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5017123" side_tool="true" weight="0.1732224" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,7 +792,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32876712" />
@@ -515,13 +892,7 @@
     <entry file="file://$PROJECT_DIR$/Clase-6/js/angularjs/angular.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://7ac7b5bd-4874-4651-abc8-e920fb4b9153/schema/pruebas/table/productos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://7ac7b5bd-4874-4651-abc8-e920fb4b9153/schema/pruebas/table/productos" />
     <entry file="das://7ac7b5bd-4874-4651-abc8-e920fb4b9153/schema/bdferreteria/table/productos">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -594,9 +965,6 @@
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/scss/general.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/css/general.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/conexion/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -618,10 +986,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/css/bootstrap/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/Clase-7/prueba.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursos/BASES DE DATOS/tienda_proyecto.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="2915" lean-forward="true" selection-start-line="2915" selection-end-line="2915" />
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -632,44 +1006,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ac7b5bd-4874-4651-abc8-e920fb4b9153/console.sql">
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="704">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clase-7/prueba.php">
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/res/html.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursos/BASES DE DATOS/tienda_proyecto.sql">
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/autoload.inc.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/index.html">
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/libs/dompdf/lib/html5lib/Parser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="60" column="50" lean-forward="true" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
-        </state>
+        <state relative-caret-position="-144" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        <state relative-caret-position="390">
+          <caret line="82" column="6" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/productos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/modelos/productos.php">
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/css/general.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/css/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="2915" lean-forward="true" selection-start-line="2915" selection-end-line="2915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto-Final/php/controladores/reporte_pdf_pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>

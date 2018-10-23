@@ -57,5 +57,29 @@ app.controller("crudController",["$scope","$http",function (s, h) {
                 })
         }
     }
+    //repuerar a modal
+    s.edit = function (id_producto) {
+        s.detalle_producto = s.productos[id_producto];
+        let modal_elememt=angular.element('#modal-update');
+        modal_elememt.modal('show');
+    }
+    //actualizar
+    s.updateProducto=function () {
+        let confirmar=confirm("¿Esta Seguro de actualizar los datos?");
+        if (confirmar){
+            h({
+                method:'POST',
+                url:'php/controladores/productos.php',
+                data:{opcion:"actualizar_producto",producto:s.detalle_producto}
+            })
+                .then(function (data) {
+                    s.errors=[];
+                    let modal_elememt=angular.element('#modal-update');
+                    modal_elememt.modal('hide');
+                },function (error) {
+                    s.errors=error.data.errors;
+                })
+        }
+    };
 
 }]);
