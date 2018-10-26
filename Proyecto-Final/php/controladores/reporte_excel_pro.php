@@ -5,10 +5,9 @@
  * Date: 22/10/2018
  * Time: 22:31
  */
-header("Content-type: application/vnd.ms-excel");
-header("Content-Disposition: attachment; filename=Reporte_Productos.xls");
-require_once "../modelos/productos.php";
 
+//header('Content-type: application/x-msexcel');
+require_once "../modelos/productos.php";
 $productos= new productos();
 
 $l_pro=$productos->mostrar_productos();
@@ -37,3 +36,11 @@ foreach ($l_pro as $elem){
 
 $html_texto.="</table>";
 echo $html_texto;
+//header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+//header('Content-Disposition: attachment; filename=Reporte_Productos.xls');
+header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+header('Content-Transfer-Encoding: binary');
+header('Cache-Control: must-revalidate');
+header('Pragma: public');
+header('Content-Disposition: attachment; filename=Reporte_Productos.xlsx' );
+
